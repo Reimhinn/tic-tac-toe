@@ -1,0 +1,14 @@
+    #main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #tic-tac-toe {
+        width: 20vw;
+        height: 20vw;
+        border: 3px aquamarine solid;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
